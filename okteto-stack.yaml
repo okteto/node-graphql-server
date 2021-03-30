@@ -1,0 +1,13 @@
+name: node-graphql-server
+services:
+  gateway:
+    public: true
+    image: okteto.dev/graphql-gateway
+    build: gateway
+    ports:
+    - 4000
+  service:
+    image: okteto.dev/graphql-service
+    build: service
+    ports:
+    - 4001

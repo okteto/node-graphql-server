@@ -1,0 +1,8 @@
+name: service
+image: okteto/node:12
+command: bash
+sync:
+- .:/usr/src/app
+forward:
+- 9230:9229
+- 4001:4001
