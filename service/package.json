@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "@apollo/federation": "^0.22.0",
     "apollo-server": "^2.22.2",
