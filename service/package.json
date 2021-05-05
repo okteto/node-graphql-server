@@ -13,6 +13,8 @@
   "dependencies": {
     "@apollo/federation": "^0.22.0",
     "apollo-server": "^2.22.2",
-    "graphql": "^15.5.0"
+    "graphql": "^15.5.0",
+    "ioredis": "^4.27.2",
+    "uuid": "^8.3.2"
   }
 }
