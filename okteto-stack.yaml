@@ -1,10 +1,5 @@
-name: node-graphql-server
+name: books
 services:
-  books:
-    image: okteto.dev/proxy
-    build: proxy
-    ports:
-    - 8080:8080
   frontend:
     image: okteto.dev/frontend
     build: frontend
@@ -20,3 +15,10 @@ services:
     build: service
     ports:
     - 4001
+endpoints:
+  - path: /
+    service: frontend
+    port: 8080
+  - path: /graphql
+    service: gateway
+    port: 4000

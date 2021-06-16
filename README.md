@@ -6,10 +6,6 @@ This repository contains an example of how to develop a federated GraphQL applic
 
 ## Components
 
-### Proxy
-
-NGINX proxy fronting the entire application. Use this so the application has a single entry point.
-
 ### Frontend
 
 A react application that displays the list of books. It calls the graphQL service to get the information.
