@@ -1,5 +1,4 @@
 name: gateway
-image: okteto/node:12
 command: bash
 sync:
 - .:/usr/src/app

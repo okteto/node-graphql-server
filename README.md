@@ -10,15 +10,15 @@ This repository contains an example of how to develop a federated GraphQL applic
 
 NGINX proxy fronting the entire application. Use this so the application has a single entry point.
 
-## Frontend
+### Frontend
 
 A react application that displays the list of books. It calls the graphQL service to get the information.
 
-## Gateway
+### Gateway
 
 A GraphQL gateway service. This allows us to federate multiple services together under the same endpoint.
 
-## Service
+### Service
 
 A GraphQL service that returns a list of books.
 
