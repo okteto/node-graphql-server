@@ -30,6 +30,16 @@ const books = [
       title: 'City of Glass',
       author: 'Paul Auster',
     },
+    {
+      id: '3',
+      title: '100 Years of Solitude',
+      author: 'Gabriel García Marquez',
+    },
+    {
+      id: '4',
+      title: 'Telegraph Avenue',
+      author: 'Michael Chabon',
+    },
   ];
 
   const resolvers = {
